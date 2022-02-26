@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style-wide.css">
+    <link rel="stylesheet" href="css/style-normal.css">
+    <link rel="stylesheet" href="css/style-narrower.css">
+    <link rel="stylesheet" href="css/style-narrow.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
+    <link rel="stylesheet" href="css/skel.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css\fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fix/icomoon.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="inner-header">
+        <div class="name">
+            <p>PETER KIMANZI</p>
+        </div>
+
+        <section class="icons">
+            <a href=""><i class="icon-github fa-2x"></i></a>
+            <a href=""><i class="icon-instagram fa-2x"></i></a>
+            <a href=""><i class="icon-whatsapp fa-2x"></i></a>
+            <a href=""><i class="icon-facebook fa-2x"></i></a>
+            <a href=""><i class="icon-bars fa-2x"></i></a>
+        </section>
+    </div>
+
+
+</header>
+  <div id="fullpage" id="menu"  class="response">
+    <div class="section class1">
+
+
+    <div class="main names">
+        <h1>PETER </h1>
+        <p>KIMANZI</p>
+    </div>
+
+    <section class="main">
+       
+
+        
+    <div class="container">
+        <h1 class='text a'></h1>
+      
+      <h1 class='text c'><img class="img1" src="img\2.jpg" alt=""></h1>
+        <h1 class='text c x'>DESIGN</h1>
+        
+      </div>
+      <div class="experence">
+          <h1 class='text a y'>PORTFOLIO</h1>
+      </div>
+        
+    </section>
+
+    <section class="work">
+        <p>Web developer /</p>
+        <p class="d"> desiger</p>
+    </section>
+
+    <section class="scroll">
+        <p>SCROLLDOWN</p>
+    </section>
+  </div>
+
+  <div class="section">
+    <div class="main names projects">
+      <h1>PROJECTS</h1>
+      <p>PROJECTS</p>
+
+  </div>
+
+  <section class="work websites">
+    <p>Websites</p>
+</section>
+
+<section class="work showmore">
+  <button>
+    <a href="#"><p>show more</p></a>
+    </button>
+</section>
+
+<div class="container2">
+  <div class="overlay">
+  </div>
+  <div class=" overlay2">
+  </div>
+<h1 class=''><img class="img2" src="img\pexels-kaboompics-com-6471.jpg" alt=""></h1>
+  
+</div>
+
+<div class="number main">
+  <p>01</p>
+</div>
+  </div>
+
+  
+  <div class="section class2">
+    <div class="main names projects">
+      <h1>About me</h1>
+      <p>About me</p>
+
+  </div>
+
+  <section class="work websites small">
+    <p>love at first line of code </p>
+</section> 
+
+<section class="work showmore">
+  <button>
+    <a href="kimjaydenabout.html"><p>show more</p></a>
+    </button>
+</section>
+
+<div class="container2">
+  <div class="overlay">
+  </div>
+  <div class=" overlay2">
+  </div>
+<h1 class=''><img class="img2" src="img\3.jpg" alt=""></h1>
+  
+</div>
+
+<div class="number main">
+  <p>02</p>
+</div>
+  </div>
+
+  <div class="section class3">
+    <div class="main names projects">
+      <h1>Get Intouch</h1>
+      <p>Get Intouch</p>
+
+  </div>
+
+  <section class="work websites email small">
+    <p>kimjayden@gmail.com</p>
+
+    <div class="bottomicons">
+        <a href=""><i class="icon-github fa-2x"></i></a>
+        <a href=""><i class="icon-whatsapp fa-2x"></i></a>
+    </div>
+
+</section>
+
+</section>
+
+<section class="work">
+  <p>Nairobi,Kenya</p>
+</section>
+
+<section class="work showmore last">
+  <button>
+    <a href="contact.html"><p>show more</p></a>
+    </button>
+</section>
+
+<div class="container2">
+  <div class="overlay">
+</div>
+<div class=" overlay2">
+</div>
+<h1 class=''><img class="img2" src="img\4.jpg" alt=""></h1>
+  
+</div>
+
+<div class="number main">
+  <p>03</p>
+</div>
+  </div>
+
+  
+
+  </div>  
+
+  
+
+    <!-- scripts -->
+  <script src="js\fullpage.js"></script>
+  <!-- <script src="js\examples.js"></script> -->
+  <script src="lib\lax.min.js"></script>
+  <script type="application/javascript"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/plugins/animation.gsap.js"></script>
+<script src="js/plugins/animation.velocity.js"></script>
+<script src="js/plugins/debug.addIndicators.js"></script>
+<script src="js/plugins/jquery.ScrollMagic.js"></script>
+
+<script>
+  // scroller
+  new fullpage("#fullpage", {
+    autoScrolling: TextTrackCue,
+    navigation:true,
+    scrollingSpeed:1000,
+    easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+  })
+  
+      window.onload = function () {
+        lax.init()
+  
+        // Setup mouse move listener
+        document.addEventListener('mousemove', function (e) {
+          lax.__cursorX = e.clientX
+          lax.__cursorY = e.clientY
+        }, false)
+  
+        // Add lax driver for cursorX
+        lax.addDriver('cursorX', function () {
+          return lax.__cursorX || 0
+        })
+  
+        // Add lax driver for cursorY
+        lax.addDriver('cursorY', function () {
+          return lax.__cursorY || 0
+        })
+  
+        // Add lax driver for cursorXY
+        lax.addDriver('cursorDistanceFromCenter', function () {
+          var pageHeight = document.body.scrollHeight
+          var pageWidth = document.body.scrollWidth
+  
+          var pageCenterX = pageWidth / 2
+          var pageCenterY = pageHeight / 2
+  
+          var absDistanceFromCenterY = Math.abs((lax.__cursorY || 0) - pageCenterY) / pageCenterY
+          var absDistanceFromCenterX = Math.abs((lax.__cursorX || 0) - pageCenterX) / pageCenterX
+  
+          return absDistanceFromCenterX + absDistanceFromCenterY
+        })
+  
+        lax.addElements(".text", {
+          'cursorX': {
+            "translateX": [
+              [0, 'screenWidth'],
+              ['index * 10', 'index * -10'],
+            ],
+          },
+          'cursorY': {
+            "translateY": [
+              [0, 'screenHeight'],
+              ['index * 10', 'index * -10'],
+            ],
+          },
+          'cursorDistanceFromCenter': {
+            "scale": [
+              [0, 1],
+              [1, '1 + (index * 0.05 )'],
+            ],
+          }
+        })
+  
+        lax.addElements(".container", {
+          'cursorX': {
+            "filter": [
+              [0, 'screenWidth'],
+              [0, 'screenWidth/2'],
+              {
+                "cssFn": (val) => {
+                  return `hue-rotate(${val % 160}deg)`
+                }
+              }
+            ],
+          },
+        })
+      }
+
+      // overlay
+      TweenMax.to(".overlay" , 2,{
+    delay:0.1,
+    opacity:0,
+    x:"100%",
+    ease:Expo.easeInOut
+})
+TweenMax.to(".overlay2" , 2,{
+    // delay:,
+    opacity:0,
+    x:"100%",
+    ease:Expo.easeInOut
+})
+
+
+
+  
+    </script>
+
+    
+</body>
+</html>
